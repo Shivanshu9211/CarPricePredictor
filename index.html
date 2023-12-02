@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="Images/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+    <title>Car Price Predictions</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-steering-line"></i>
+                Car Price Predictor
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Requirements</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#form" class="nav__link">Calculate Now</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-circle-line"></i>
+                </div>
+            </div>
+            
+            <! Toggle Button >
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        
+        <section class="home section" id="home">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Get a best price for your Car
+                    </h1>
+                    <h2 class="home__subtitle">
+                        Most accurate predictions for your cars.
+                    </h2>
+                    <h3 class="home__elec">
+                        <i class="ri-flashlight-line"></i> Best Deals
+                    </h3>
+
+                </div>
+                <img src="Images/img/home.png" alt="" class="home__img">
+
+                <div class="home__car">
+                    <div class="home__car-number">
+                        <div class="home__car-icon">
+                            <i class="ri-taxi-wifi-line"></i>
+                        </div>
+                        <h2 class="home__car-number">20+</h2>
+                        <h3 class="home__car-name">Car Brands</h3>
+                    </div>
+
+                    <div class="home__car-number">
+                        <div class="home__car-icon">
+                            <i class="ri-car-fill"></i>
+                        </div>
+                        <h2 class="home__car-number">100+</h2>
+                        <h3 class="home__car-name">Cars</h3>
+                    </div>
+
+                    <div class="home__car-number">
+                        <div class="home__car-icon">
+                            <i class="ri-thumb-up-line"></i>
+                        </div>
+                        <h2 class="home__car-number">Best</h2>
+                        <h3 class="home__car-name">Predictions</h3>
+                    </div>
+                </div>
+
+                <a href="#form" class="home__button">Predict</a>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <img src="Images/img/about.png" alt="" class="about__img">
+                    <div class="about__card">
+                        <h3 class="about__card-title">500+</h3>
+                        <p class="about__card-description">
+                            Cars to choose from.
+                            Find the best deal
+                        </p>
+                    </div>
+                </div>
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        The Last deal <br> For your Loved Car
+                    </h2>
+
+                    <p class="about__description">
+                        We ensure the price for your car <br> depending upon the current physical <br>conditions.
+                        Various aspects play a <br>vital role in the overall calculations.
+                    </p>
+
+                    <a href="#" class="button">Know More</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="popular section" id="popular">
+            <h2 class="section__title">
+                Things to keep in mind
+            </h2>
+
+            <div class="popular__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Transmission</h1>
+                        <h3 class="popular__subtitle">Transmission Type of the vehicle</h3>
+
+                        <img src="Images/img/popular2.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Manual
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Automatic
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Semi-Automatic
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price"></h3>
+
+                        <!-- <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button> -->
+
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Year</h1>
+                        <h3 class="popular__subtitle">Year of Purchase</h3>
+
+                        <img src="Images/img/popular1.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Model Value
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Time Used
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Statical Analysis
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price"></h3>
+
+                        <!-- <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button> -->
+
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Distance</h1>
+                        <h3 class="popular__subtitle">Total distance driven</h3>
+
+                        <img src="Images/img/featured3.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Total Kilometers
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Engine Age
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Type of Usage
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price"></h3>
+
+                        
+
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Fuel</h1>
+                        <h3 class="popular__subtitle">Type Of Fuel</h3>
+
+                        <img src="Images/img/featured4.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Petrol
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Diesel
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> Electric
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price"></h3>
+
+                        <!-- <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button> -->
+
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="form section" id="form">
+            <div class="form__container">
+                <div class="form__content">
+                    <h2 class="form__heading">Predictive analysis</h2>
+                        <div class="form__fields" id="form__fields">
+                            <form action="{{ url_for('predict')}}" method="post">
+                                <h3 class="form__que">Year</h3>
+                                <input class= "form__input" id="first" name="Year" type="number ">
+                                <h3 class="form__que">What is the Showroom Price?(In lakhs)</h3>
+                                <input class= "form__input" id="second" name="Present_Price" required="required">
+                                <h3 class="form__que">How Many Kilometers Drived?</h3>
+                                <input class= "form__input" id="third" name="Kms_Driven" required="required">
+                                <h3 class="form__que">How much owners previously had the car(0 or 1 or 3) ?</h3>
+                                <input class= "form__input" id="fourth" name="Owner" required="required">
+                                <h3 class="form__que">What Is the Fuel type?</h3><select name="Fuel_Type_Petrol" id="fuel" required="required" class= "form__input">
+                                    <option value="Petrol">Petrol</option>
+                                    <option value="Diesel">Diesel</option>
+                                    <option value="Diesel">CNG</option>
+                                </select>
+                                <h3 class="form__que">Are you A Dealer or Individual</h3><select name="Seller_Type_Individual" id="resea" required="required" class= "form__input">
+                                    <option value="Dealer">Dealer</option>
+                                    <option value="Individual">Individual</option>
+                                </select>
+                                <h3 class="form__que">Transmission type</h3><select name="Transmission_Mannual" id="research" required="required" class= "form__input">
+                                    <option value="Mannual">Manual Car</option>
+                                    <option value="Automatic">Automatic Car</option>
+                                </select>
+                                
+                                <div class="form-btn">
+                                    <button id="sub" type="submit " class="form__button">
+                                        Calculate Now
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    <br><br><h3>{{ prediction_text }}<h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="shape shape__big"></div>
+        <div class="shape shape__small"></div>
+
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#home" class="footer__logo">
+                    <i class="ri-steering-line"></i>Car Price Predictor
+                </a>
+                <p class="footer__description">
+                    We Offer the best Prices for <br>
+                    the used cars with most of the <br>
+                    recogonized car brands. <br>
+                    Know the worth of your car.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Navigate
+                </h3>
+                <ul class="footer__links">
+                    <li class="footer__link">
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#popular" class="footer__link">Requirements</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#form" class="footer__link">Calculate</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Team
+                </h3>
+                <ul class="footer__links">
+                    <li class="footer__link">
+                        <a href="" class="footer__link">Muskan - 066</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="" class="footer__link">Rudransh - 092</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="" class="footer__link">Shivanshu - 103</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="" class="footer__link">Vinayak - 124</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Follow Us
+                </h3>
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/muskan-chaturvedi-020752220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rudransh-sharma-800251248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shivanshu-tiwari-05mar" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                        
+                    </a>
+                    <a href="https://www.linkedin.com/in/vinayak-agarwal-46b87520b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">
+            &#169; Zeros. All rights reserved
+        </span>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-fill"></i>
+    </a>
+    <script src="JavaScript/swiper-bundle.min.js"></script>
+    <script src="JavaScript/index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
